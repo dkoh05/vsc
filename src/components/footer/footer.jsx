@@ -1,9 +1,12 @@
+import { Typography } from '@mui/material'
 import './footer.css'
 
 function Footer() {
     return (
         <div className="footer">
-            Copy right by DaeYeon. All rights reserved
+            <Typography>
+                &copy; {new Date().getFullYear()} DaeYeon. All Rights Reserved.
+            </Typography>
         </div>
     )
 }
