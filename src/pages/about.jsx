@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -5,6 +6,24 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import './about.css'
+=======
+function About(){
+    return (
+        <div className="about-me">
+            <h1>A Brief History about Dae Yeon</h1>
+            <ul>
+                <li>Born in Seoul, South Korea in 2005</li>
+                <li>Moved to Ho Chi Minh City, Vietnam in 2007</li>
+                <li>Attended the British International School, HCMC in Year 2</li>
+                <li>Built my first website in Year 9</li>
+            </ul>
+        </div>
+
+
+
+    )
+}
+>>>>>>> 8f921d8b52b01f0bc70afc92c897e0ca67539a77
 
 export default function ActionAreaCard() {
   return (
