@@ -1,0 +1,5 @@
+.about_me_banner {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}

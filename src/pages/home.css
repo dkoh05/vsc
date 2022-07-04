@@ -1,0 +1,10 @@
+.home-title {
+    text-align: center;
+    background-color: lightblue;
+    
+}
+.home-projects {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
